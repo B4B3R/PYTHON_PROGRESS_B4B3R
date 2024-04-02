@@ -28,3 +28,7 @@ while lifes > 0: # boucle pour arrêter le jeu quand le joueur n'aura plus de vi
         print("There is not that letter")
         list_of_your_letters.append(your_letter)
         lifes -= 1
+
+# Principes à appliquer pour améliorer le programme
+# function: len(), range(), [] "mot_public[:3] + 'h' + mot_public[4:]"
+#            enumerate(), break, validation de données, interface graphique
