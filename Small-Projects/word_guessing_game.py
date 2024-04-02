@@ -4,7 +4,7 @@ lifes = 7
 word = "BONJOUR"
 list_of_your_letters = []
 
-while lifes > 0:
+while lifes > 0: # boucle pour arrêter le jeu quand le joueur n'aura plus de vies
     
     your_letter = str(input("Selectionner une lettre    "))
     print("Il vous reste " + str(lifes) + " vies.")
@@ -15,17 +15,14 @@ while lifes > 0:
         print("You have one letter right ! ")
         list_of_your_letters.append(your_letter)
         
-    
-    elif str(list_of_your_letters) in word:
-    
-        print("Vous avez trouvez toutes les lettres")
-        break
-    
-    
-    elif your_letter == "":
+        for l in word or l in word.lower(): # boucle for pour selectionner chaque lettre du mot à trouver en minuscule et en majuscule
+            if l in list_of_your_letters: # condition pour savoir quand le joueur aura trouver toutes les lettres
+                    print("GG! Vous avez trouvé le mot qui était bonjour, ne vous inquiétez pas les majuscules et les minuscules n'ont eu aucune incidence sur le jeu.")
+                    lifes = 0
+            else:
+                print("Vous n'avez toujours pas trouver le mot.")
+                break
 
-        print("--------")
-    
     else:
         
         print("There is not that letter")
