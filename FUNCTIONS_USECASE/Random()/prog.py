@@ -1,4 +1,4 @@
-# First usecase of the function random()
+# First usecase of the function range()
 
 from random import * # or just import random but if you do that you need to call function random.random() not just random
 
@@ -8,7 +8,7 @@ print(a)
 list = []
 # range() : 
 
-for l in range(10):
+for l in range(10): # stop on 10
     list.append(l)
     print(list)
 
