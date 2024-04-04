@@ -1,8 +1,6 @@
 # PYTHON_PROGRESS_B4B3R
 MY PYTHON PROGRESS FUNDAMENTALS:
-    -the lists
-    -while loop
-    -loops for
+I've got :
     -functions
     -parameters
     -args and kwargs
