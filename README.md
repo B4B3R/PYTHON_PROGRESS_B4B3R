@@ -1,11 +1,6 @@
 # PYTHON_PROGRESS_B4B3R
 MY PYTHON PROGRESS FUNDAMENTALS:
-I've got :
-    -functions
-    -parameters
-    -args and kwargs
-    -return
-    -scope
+I've got:
     -tuples
     -sets
     -dictionaries
