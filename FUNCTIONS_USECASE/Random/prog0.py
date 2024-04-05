@@ -9,5 +9,3 @@ variable = str(choice(my_sequence)) # it's important to convert to string to be 
 
 print("Value :      " + str(variable))
 print("Lenght :     ", len(variable)) # in this case use , not + because you don't need you have 2 string
-
-

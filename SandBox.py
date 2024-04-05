@@ -25,3 +25,6 @@ while i < 3:
 
 for l in ['a','b','c','d']:
     print(l)
+
+print(dir(list)) # use dir or help to find every methods of an certain object
+print(help(list))
