@@ -21,3 +21,19 @@ print(set_1.intersection(set_2))
 
 print(set_1.difference(set_2)) #unique elements to set_1
 print(set_2.difference(set_1)) #unique elements to set_2
+
+# dictionnary
+
+nbs_dict = {"un": 1, "deux": 2,"trois": 3} # list with storage by name
+
+print("dict :     ",nbs_dict.get("trois")) # use get method on a dict to find an element
+print("dict :     ",nbs_dict.get("quatre", "cet élément n'existe pas dans le dictionnaire")) 
+# specify the default return if the 
+# key doesn't exist in your dict
+
+nbs_dict.update({"trois": 33}) #use update method to update or add an element
+nbs_dict.pop("trois") # use the method pop to delete a pair of key and value
+
+print(nbs_dict.values()) # use that method to have all values of the dict
+print(nbs_dict.keys()) # use that method to have all keys of the dict
+print(nbs_dict.items()) # use that method to have all tuple of the dict (pair of key and value)
